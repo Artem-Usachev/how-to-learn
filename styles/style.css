@@ -15,10 +15,6 @@
     z-index: 1;
 }
 
-.logo_place_header {
-    background-image: url(/images/logo_place_header.svg);
-}
-
 .logo {
     position: absolute;
     width: 183px;
@@ -30,20 +26,43 @@
 
 .title {
     display: flex;
+    font-weight: bold;
+}
+
+.subtitle {
+    display: flex;
+    font-weight: normal;
+}
+
+.link {
+    color: #2f80ed;
+    text-decoration: none;
+    position: absolute;
+}
+
+.main-illustration {
+    position: absolute;
+}
+
+
+/* block header */
+
+.header__logo {
+    background-image: url(/images/logo_place_header.svg);
+}
+
+.header__title {
     align-self: center;
     flex-basis: 730px;
     margin-left: 64px;
-    text-transform: 96px;
+    line-height: 96px;
     font-size: 102px;
-    font-weight: bold;
     z-index: 4;
 }
 
 .header__subtitle {
-    display: flex;
     font-size: 18px;
-    font-weight: normal;
-    text-transform: 25px;
+    line-height: 25px;
     width: 388px;
     z-index: 4;
     position: absolute;
@@ -52,9 +71,6 @@
 }
 
 .header__link {
-    color: #2f80ed;
-    text-decoration: none;
-    position: absolute;
     bottom: 0;
     left: 64px;
 }
@@ -62,7 +78,6 @@
 .header__main-illustration {
     width: 765px;
     height: 608px;
-    position: absolute;
     right: 0;
     bottom: 0;
     z-index: 3;
@@ -77,6 +92,57 @@
     right: 0;
     z-index: 2;
 }
+
+
+/* end block header */
+
+
+/* block  feynman */
+
+.feynman {
+    height: 790px;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feynman__title {
+    font-size: 120px;
+    width: 648px;
+    line-height: 1.15;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.feynman__subtitle {
+    font-size: 36px;
+    z-index: 1;
+    line-height: 51px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.feynman__link {
+    right: 48px;
+    top: 50%;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.feynman__main-illustration {
+    width: 867px;
+    height: 637px;
+    bottom: 0;
+    left: 0;
+}
+
+
+/*end block feynman
 
 
 /* и элемента с модификатором вида ключ-значение */
