@@ -5,6 +5,9 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
+/* block header */
+
 .header {
     display: flex;
     height: 100vh;
@@ -14,9 +17,6 @@
     position: relative;
     z-index: 1;
 }
-
-
-/* block header */
 
 .logo_place_header {
     position: absolute;
@@ -120,10 +120,6 @@
 
 .two-columns__span-accent {
     font-weight: bold;
-}
-
-.main-text__paragraph:last-child {
-    padding-bottom: 0;
 }
 
 
