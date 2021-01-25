@@ -15,8 +15,6 @@
     z-index: 1;
 }
 
-.logo {}
-
 .title {
     display: flex;
     font-weight: bold;
