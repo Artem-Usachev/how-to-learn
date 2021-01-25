@@ -40,7 +40,7 @@
 
 .header__logo {
     position: absolute;
-    background-image: url(./images/logo_place_header.svg);
+    background-image: url(../images/logo_place_header.svg);
     width: 183px;
     height: 32px;
     top: 30px;
@@ -347,7 +347,7 @@
 }
 
 .logo_place_footer {
-    background-image: url(./images/logo_place_footer.svg);
+    background-image: url(../images/logo_place_footer.svg);
     width: 183px;
     height: 35px;
     display: flex;
