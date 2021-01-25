@@ -15,14 +15,7 @@
     z-index: 1;
 }
 
-.logo {
-    position: absolute;
-    width: 183px;
-    height: 32px;
-    top: 30px;
-    left: 64px;
-    margin: o;
-}
+.logo {}
 
 .title {
     display: flex;
@@ -48,7 +41,13 @@
 /* block header */
 
 .header__logo {
+    position: absolute;
     background-image: url(/images/logo_place_header.svg);
+    width: 183px;
+    height: 32px;
+    top: 30px;
+    left: 64px;
+    margin: 0;
 }
 
 .header__title {
@@ -100,7 +99,6 @@
 /* block description*/
 
 .description {
-    ;
     padding: 0 auto 0;
 }
 
@@ -140,7 +138,7 @@
     font-weight: bold;
 }
 
-.main-text__paragraph-text-bottom {
+.main-text__paragraph:last-child {
     padding-bottom: 0;
 }
 
@@ -162,20 +160,27 @@
     width: 60%;
     line-height: 1.15;
     font-size: 60px;
-    margin: 0;
-    order: 1;
-    margin: 0 auto 0;
     text-align: center;
+}
+
+.digits__section-title {
+    margin: 0 auto 0;
+}
+
+.digits__section-subtitle {
+    margin: 20px auto 0;
 }
 
 .section-subtitle {
     width: 60%;
-    margin: 20px auto 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-    order: 2;
     text-align: center;
+}
+
+.digits__table {
+    margin: 0 auto 100px;
 }
 
 .table {
@@ -183,7 +188,6 @@
     padding: 0;
     display: flex;
     order: 3;
-    margin: 0 auto 100px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -193,10 +197,13 @@
     list-style-type: none;
     width: 250px;
     flex-direction: column;
+}
+
+.table__cell {
     margin: 60px 0 0 0;
 }
 
-.cell__heading {
+.heading {
     display: flex;
     margin: 0 0 20px 0;
     line-height: 1.15;
@@ -205,7 +212,7 @@
     text-align: left;
 }
 
-.cell__text {
+.text {
     display: flex;
     margin: 20px 0 0 0;
     line-height: 1.2;
@@ -265,7 +272,36 @@
 /*end block feynman
 
 
-/* и элемента с модификатором вида ключ-значение */
+/* block kaufman */
+
+.kaufman {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.kaufman__section-title_theme_dark {
+    color: white;
+    margin: 90px auto 20px;
+    z-index: 3;
+}
+
+.kaufman__section-subtitle_theme_dark {
+    color: white;
+    margin: 0 auto 0;
+    z-index: 3;
+}
+
+.kaufman__table_theme_dark {
+    margin: 0 auto 90px;
+    z-index: 3;
+}
 
 .table__cell_theme_dark {
     width: 200px;
@@ -273,3 +309,96 @@
     margin-right: 0;
     margin-top: 80px;
 }
+
+.triangle {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    right: -210px;
+    top: 0;
+    z-index: 2;
+}
+
+
+/* end block kaufman */
+
+
+/* block footer */
+
+.footer {
+    background-color: black;
+    min-height: 350px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.columns__content_copyright {
+    flex-basis: 711px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo_place_footer {
+    background-image: url(/images/logo_place_footer.svg);
+    width: 183px;
+    height: 35px;
+    display: flex;
+}
+
+.autor {
+    display: flex;
+    color: white;
+    margin: 18px auto 18px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 0;
+}
+
+.columns__content_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.columns__content_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.column-heading {
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.columns-links {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 16px 0;
+}
+
+.column-link {
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/* end blcok footer */
