@@ -96,10 +96,6 @@
 
 /* block description*/
 
-.description {
-    padding: 0 auto 0;
-}
-
 .two-columns {
     width: 80%;
     display: flex;
@@ -362,6 +358,7 @@
     font-weight: normal;
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 .columns__content_info {
