@@ -285,16 +285,7 @@
     margin-right: 0;
     margin-top: 80px;
     z-index: 3;
-}
-
-.table__heading_theme_dark {
     color: white;
-    z-index: 3;
-}
-
-.table__text_theme_dark {
-    color: white;
-    z-index: 3;
 }
 
 .kaufman__triangle {
@@ -350,7 +341,7 @@
     display: flex;
 }
 
-.footer__autor {
+.footer__author {
     color: white;
     margin: 18px auto 18px 0;
     line-height: 25px;
