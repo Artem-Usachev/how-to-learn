@@ -275,26 +275,29 @@
     z-index: 3;
 }
 
-.table_theme_dark {
+.table__table_theme_dark {
     margin: 0 auto 0;
     z-index: 3;
 }
 
-.cell_theme_dark {
+.table__cell_theme_dark {
     width: 200px;
     margin-right: 0;
     margin-top: 80px;
+    z-index: 3;
 }
 
-.heading_theme_dark {
+.table__heading_theme_dark {
     color: white;
+    z-index: 3;
 }
 
-.text_theme_dark {
+.table__text_theme_dark {
     color: white;
+    z-index: 3;
 }
 
-.triangle {
+.kaufman__triangle {
     background-image: url(../images/kaufman-triangle.svg);
     background-size: cover;
     width: 877px;
@@ -327,11 +330,15 @@
     justify-content: space-between;
 }
 
-.footer__column_content_copyright {
+.footer__column {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer__column_content_copyright {
     flex-basis: 711px;
     justify-content: space-between;
-    flex-direction: column;
 }
 
 .logo_place_footer {
@@ -344,24 +351,11 @@
 }
 
 .footer__autor {
-    display: flex;
     color: white;
     margin: 18px auto 18px 0;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-}
-
-.footer__column_content_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.footer__colunm_content_social {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 .footer__columns-links {
