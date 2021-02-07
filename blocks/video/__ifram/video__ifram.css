@@ -1,0 +1,8 @@
+.video__ifram {
+    width: 515px;
+    height: 316px;
+}
+
+.video__ifram:first-child {
+    margin: 0 20px 0 0;
+}

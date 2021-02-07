@@ -1,0 +1,6 @@
+.video__iframs {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1050px;
+    margin: 50px auto 0;
+}
