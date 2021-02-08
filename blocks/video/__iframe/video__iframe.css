@@ -1,8 +1,9 @@
-.video__ifram {
+.video__iframe {
     width: 515px;
     height: 316px;
+    border: none;
 }
 
-.video__ifram:first-child {
+.video__iframe:first-child {
     margin: 0 20px 0 0;
 }

@@ -4,6 +4,7 @@
     line-height: 1.15;
     text-align: center;
     margin: 0;
-    z-index: 1;
+    padding-bottom: 70px;
+    z-index: 2;
     font-weight: bold;
 }
