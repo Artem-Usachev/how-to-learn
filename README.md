@@ -1,4 +1,4 @@
-![background-img](https://github.com/Artem-Usachev/images/blob/master/729440.jpg)
+
 # How To Learn
 ------
 ## Яндекс  Практикум
